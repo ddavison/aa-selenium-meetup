@@ -1,4 +1,4 @@
-This project is the project that is used in the Ann Arbor Selenium Meetup group.
+This project is used by the Ann Arbor Selenium Meetup group.
 
 This project was designed to get you started with using the getting-started-with-selenium framework.
 
