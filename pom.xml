@@ -1,0 +1,16 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>aa.meetup</groupId>
+  <artifactId>selenium</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>aa-metup</name>
+  <description>Selenium Test Automation</description>
+
+  <dependencies>
+    <dependency>
+      <groupId>io.ddavison</groupId>
+      <artifactId>getting-started-with-selenium-framework</artifactId>
+      <version>1.0</version>
+    </dependency>
+  </dependencies>
+</project>
