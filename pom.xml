@@ -10,7 +10,7 @@
     <dependency>
       <groupId>io.ddavison</groupId>
       <artifactId>getting-started-with-selenium-framework</artifactId>
-      <version>1.1</version>
+      <version>[1,)</version>
     </dependency>
   </dependencies>
 </project>
