@@ -1,7 +1,9 @@
 package selenium.app.functional_area;
 
 import org.junit.Test;
+import org.openqa.selenium.By;
 import selenium.app.GitHubAutomationTest;
+import selenium.app.pages.HomePage;
 
 /**
  * We will be automating GitHub.  An open-source website that hosts many
@@ -30,6 +32,12 @@ public class ExploreTests extends GitHubAutomationTest {
      */
     @Test
     public void testTopTrendingUrl() {
-        // TODO
+        click(HomePage.EXPLORE)
+        .click(By.linkText("Trending"))
+        .click("ol.repo-list li:nth-child(1) .repo-list-name a")// clicks the first trending repo no matter what it is
+        .store("repo_title", getText("a.js-current-repository"))
+        .validateUrl(".*/" + get("repo_title")) // .*/nogotofail
+        ;
+//        String text = getText("a.js-current-repository");
     }
 }

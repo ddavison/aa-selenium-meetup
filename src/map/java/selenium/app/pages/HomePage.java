@@ -1,10 +1,12 @@
 package selenium.app.pages;
 
+import org.openqa.selenium.By;
+
 /**
  * This is a Library File.  This file will basically Map each object on a webpage.
  */
 public class HomePage {
-    public static String EXPLORE = "<fill in css selector here>";
-    public static String TERMS_OF_SERVICE = "<fill in css selector here>";
-    public static String PRIVACY_POLICY = "<fill in css selector here>";
+    public static By EXPLORE = By.linkText("Explore");
+    public static By TERMS_OF_SERVICE = By.linkText("Terms of Service");
+    public static By PRIVACY_POLICY = By.linkText("privacy policy");
 }

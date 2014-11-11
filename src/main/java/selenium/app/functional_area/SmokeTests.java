@@ -3,6 +3,7 @@ package selenium.app.functional_area;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import selenium.app.GitHubAutomationTest;
+import selenium.app.pages.HomePage;
 
 /**
  * This is a Smoke Test test class.  In here, we would include tests that are covering the
@@ -20,11 +21,15 @@ public class SmokeTests extends GitHubAutomationTest {
      */
     @Test
     public void testTermsOfService() {
-        // TODO
+        click(HomePage.TERMS_OF_SERVICE)
+        .waitForWindow(".*GitHub Terms of Service.*")
+        .validateTextPresent("GitHub Terms of Service");
     }
 
     @Test
     public void testPrivacyPolicy() {
-        // TODO
+        click(HomePage.PRIVACY_POLICY)
+        .waitForWindow(".*GitHub Privacy Policy.*")
+        .validateTextPresent("GitHub Privacy Policy");
     }
 }
