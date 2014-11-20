@@ -7,6 +7,6 @@ import org.openqa.selenium.By;
  */
 public class HomePage {
     public static By EXPLORE = By.linkText("Explore");
-    public static By TERMS_OF_SERVICE = By.linkText("Terms of Service");
+    public static By TERMS_OF_SERVICE = By.linkText("terms of service");
     public static By PRIVACY_POLICY = By.linkText("privacy policy");
 }

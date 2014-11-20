@@ -18,3 +18,4 @@ hs_err_pid*
 .idea/tasks.xml
 
 target/
+atlassian-ide-plugin.xml

@@ -1,7 +1,6 @@
 package selenium.app.functional_area;
 
 import org.junit.Test;
-import org.openqa.selenium.By;
 import selenium.app.GitHubAutomationTest;
 import selenium.app.pages.HomePage;
 
@@ -9,7 +8,7 @@ import selenium.app.pages.HomePage;
  * This is a Smoke Test test class.  In here, we would include tests that are covering the
  * very basic of functionality.  Smoke tests should be extremely short, simple, and idempotent.
  */
-public class SmokeTests extends GitHubAutomationTest {
+public class SmokeTest extends GitHubAutomationTest {
 
     /**
      * Task:  Validate that when we click terms of service, we get redirected correctly.

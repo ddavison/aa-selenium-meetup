@@ -17,7 +17,7 @@ import selenium.app.pages.HomePage;
  *          ) What to test
  *          ) what NOT to test
  */
-public class ExploreTests extends GitHubAutomationTest {
+public class ExploreTest extends GitHubAutomationTest {
     /**
      *  In this task, we will be going to the most trending open-source project on GitHub
      *  Navigating to it, and making sure that when we navigate to it, the project name
